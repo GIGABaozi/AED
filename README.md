@@ -25,8 +25,13 @@ To set up the environment, follow these steps:
 
 2. **Create a Virtual Environment:**
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+  # Using virtualenv
+   virtualenv venv
+   source venv/bin/activate
+   
+   # Using conda
+   conda create --name myenv --file requirements.txt
+   conda activate myenv
    
 3. **Install Dependencies:**
    ```bash
