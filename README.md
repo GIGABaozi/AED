@@ -2,13 +2,13 @@
 
 This repository is the implementation of the paper: Alignment-Enhanced Decoding: Defending via Token-Level Adaptive Refining of Probability Distributions. 
 
-In this paper, we present a novel defense that employs adaptive decoding to address the root causes of jailbreak issues.
+In this paper, we present a novel defense that employs adaptive decoding to address the root causes of jailbreak issues.😊
 
 ## Abstract
 Large language models are susceptible to jailbreak attacks, which can result in the generation of harmful content. While prior defenses mitigate these risks by perturbing or inspecting inputs, they ignore competing objectives, the underlying cause of alignment failures. In this paper, we propose Alignment-Enhanced Decoding (AED), a novel defense that employs adaptive decoding to address the root causes of jailbreak issues. We first define the Competitive Index to quantify alignment failures and utilize feedback from self-evaluation to compute post-alignment logits. Then, AED adaptively combines Competitive Index and post-alignment logits with the original logits to obtain harmless and helpful distributions. Consequently, our method enhances safety alignment while maintaining helpfulness. We conduct experiments across five models and four common jailbreaks, with the results validating the effectiveness of our approach.
 
 ## Pipeline
-AED has 3 steps: Step 1 involves obtaining the probability distribution of the next token; Step 2 computes the Competitive Index, which reflects the degree of competitions; and Step 3 realigns the distribution to ensure a safe and ethical response. ![Alt text](./figs/pipeline.png)
+AED has 3 steps: Step 1 involves obtaining the probability distribution of the next token; Step 2 computes the Competitive Index, which reflects the degree of competitions; and Step 3 realigns the distribution to ensure a safe and ethical response. More detail could be found in our paper.😄 ![Alt text](./figs/pipeline.png) 
 
 ### Tested Models
 |           LLMs            | AED |
