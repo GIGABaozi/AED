@@ -25,7 +25,7 @@ To set up the environment, follow these steps:
 
 2. **Create a Virtual Environment:**
    ```bash
-  # Using virtualenv
+   # Using virtualenv
    virtualenv venv
    source venv/bin/activate
    
