@@ -40,7 +40,7 @@ AED has 3 steps: Step 1 involves obtaining the probability distribution of the n
 
 ## Implementation
 
-The main codes can be found at  ```main.ipynb```.  You can directly run it and see the results in folder ```results```.
+The main codes can be found at  ```main.ipynb```.  You can **directly** run it and see the results in folder ```results```.
 
 If you wan to try other models, you can just change the  ```model_name ``` to ```vicuna```,```llama3```, ```gemma``` or ```guanaco```. Don't forget to change the path of your model.
 ```
