@@ -10,7 +10,7 @@ Large language models are susceptible to jailbreak attacks, which can result in 
 ## Pipeline
 AED has 3 steps: Step 1 involves obtaining the probability distribution of the next token; Step 2 computes the Competitive Index, which reflects the degree of competitions; and Step 3 realigns the distribution to ensure a safe and ethical response.
 
-### Supported Models
+### Tested Models
 |           LLMs            | AED |
 |:-------------------------:|:--------------------------:|
 |    Llama-2-7b-chat-hf     |             ✅              |
