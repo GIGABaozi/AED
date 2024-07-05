@@ -24,14 +24,11 @@ To set up the environment, follow these steps:
    cd yourrepository
 
 2. **Create a Virtual Environment:**
-   ```bash
-   # Using virtualenv
-   virtualenv venv
-   source venv/bin/activate
-   
+   ```bash   
    # Using conda
    conda create --name myenv --file requirements.txt
    conda activate myenv
+
    
 3. **Install Dependencies:**
    ```bash
